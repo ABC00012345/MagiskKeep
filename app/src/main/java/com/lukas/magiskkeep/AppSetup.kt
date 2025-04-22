@@ -2,12 +2,15 @@ package com.lukas.magiskkeep
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.TextView
 import android.widget.Toast
+import androidx.core.text.HtmlCompat
 import androidx.fragment.app.Fragment
 
 
@@ -41,6 +44,10 @@ class AppSetup : Fragment() {
     ): View? {
         // Inflate the layout
         val view = inflater.inflate(R.layout.fragment_setup, container, false)
+
+        val textView = view.findViewById<TextView>(R.id.textView2)
+        textView.text = HtmlCompat.fromHtml(getString(R.string.app_created_by_abc00012345), HtmlCompat.FROM_HTML_MODE_LEGACY)
+        textView.movementMethod = LinkMovementMethod.getInstance()
 
         // Find the button and set click listener
         val continueBtn = view.findViewById<ImageButton>(R.id.continueBtn)

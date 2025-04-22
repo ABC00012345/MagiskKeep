@@ -12,15 +12,28 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/intro_Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/setup_text"
-            android:textSize="24dp"
             android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/continueBtn"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_created_by_abc00012345"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/continueBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageButton
             android:id="@+id/continueBtn"
@@ -33,8 +46,7 @@
             android:src="@drawable/ic_arrow_right"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

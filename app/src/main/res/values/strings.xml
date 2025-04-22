@@ -19,4 +19,11 @@
     <string name="flashing_new_boot_img">Flashing new-boot.img ...\n</string>
     <string name="done">Done :)\n</string>
     <string name="magisk_installation_failed">Magisk insallation failed!! Please check the logs!</string>
+    <string name="app_created_by_abc00012345" translatable="false">
+    <![CDATA[
+    App created by @abc00012345<br/>
+    YT: <a href="https://www.youtube.com/@ABCABC-sw8mh">https://www.youtube.com/@ABCABC-sw8mh</a>
+    ]]>
+</string>
+
 </resources>

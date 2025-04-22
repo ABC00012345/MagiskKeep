@@ -2,12 +2,14 @@ package com.lukas.magiskkeep
 
 import android.os.Bundle
 import android.provider.DocumentsContract.Root
+import android.text.method.LinkMovementMethod
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.text.HtmlCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 // TODO: Rename parameter arguments, choose names that match
@@ -39,6 +41,12 @@ class AppMain : Fragment() {
     ): View? {
 
         val rootView = inflater.inflate(R.layout.fragment_app_main, container, false)
+
+        val textView = rootView.findViewById<TextView>(R.id.textView2)
+        textView.text = HtmlCompat.fromHtml(getString(R.string.app_created_by_abc00012345), HtmlCompat.FROM_HTML_MODE_LEGACY)
+        textView.movementMethod = LinkMovementMethod.getInstance()
+
+
 
         val slot = RootManager.execCmd("getprop ro.boot.slot_suffix").trim()
 
