@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">Cliquez sur le bouton ci-dessous pour installer Magisk après une mise à jour OTA</string>
+    <string name="install_btn">Installer</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="setup_text">Un moyen simple de conserver le root même après les mises à jour</string>
+    <string name="logs">Journaux :</string>
+    <string name="boot_image_extracted_successfully">Image de démarrage extraite avec succès\n</string>
+    <string name="failed_to_extract_boot_image">Échec de l\'extraction de l\'image de démarrage\n</string>
+    <string name="patching_boot_img">Patch de boot.img ...\n</string>
+    <string name="failed_to_patch_boot_image">Échec du patch de l\'image de démarrage !!\n</string>
+    <string name="boot_image_patched_successfully">Image de démarrage patchée avec succès\n</string>
+    <string name="failed_to_flash_boot_image">Échec du flash de l\'image de démarrage !!\n</string>
+    <string name="boot_image_flashed_successfully">Image de démarrage flashée avec succès\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">Veuillez vous assurer que le root est installé et autorisez l\'accès root !</string>
+    <string name="magisk_installed_successfully">Magisk a été installé avec succès dans la partition %1$s. Vous pouvez redémarrer maintenant et Magisk restera installé !</string>
+    <string name="are_you_sure_you_want_to_install">Êtes-vous sûr de vouloir installer ? À faire uniquement après une mise à jour OTA !!\nMagisk sera installé dans : /dev/block/by-name/boot%1$s</string>
+    <string name="magisk_installation_failed">" Échec de l'installation de Magisk ! Veuillez vérifier les journaux !"</string>
+</resources>

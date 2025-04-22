@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">اضغط على الزر أدناه لتثبيت Magisk بعد التحديث الهوائي</string>
+    <string name="install_btn">تثبيت</string>
+    <string name="hello_blank_fragment">مرحباً بالمقطع الفارغ</string>
+    <string name="setup_text">طريقة سهلة للحفاظ على صلاحيات الروت حتى بعد التحديثات</string>
+    <string name="logs">السجلات:</string>
+    <string name="boot_image_extracted_successfully">تم استخراج صورة الإقلاع بنجاح\n</string>
+    <string name="failed_to_extract_boot_image">فشل في استخراج صورة الإقلاع\n</string>
+    <string name="patching_boot_img">جاري تعديل boot.img ...\n</string>
+    <string name="failed_to_patch_boot_image">فشل في تعديل صورة الإقلاع!!\n</string>
+    <string name="boot_image_patched_successfully">تم تعديل صورة الإقلاع بنجاح\n</string>
+    <string name="failed_to_flash_boot_image">فشل في تفليش صورة الإقلاع!!\n</string>
+    <string name="boot_image_flashed_successfully">تم تفليش صورة الإقلاع بنجاح\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">تأكد من تثبيت الروت والسماح بالوصول إلى الروت!</string>
+    <string name="magisk_installed_successfully">تم تثبيت Magisk بنجاح على الفتحة %1$s. يمكنك الآن إعادة التشغيل وسيظل Magisk مثبتًا!</string>
+    <string name="are_you_sure_you_want_to_install">هل أنت متأكد أنك تريد التثبيت؟ قم بذلك فقط بعد التحديث الهوائي!!\nسيتم تثبيت Magisk في: /dev/block/by-name/boot%1$s</string>
+    <string name="magisk_installation_failed">فشل تثبيت Magisk! يُرجى مراجعة السجلات!</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">Klicke unten auf den Button, um Magisk nach dem OTA-Update zu installieren</string>
+    <string name="install_btn">Installieren</string>
+    <string name="hello_blank_fragment">Hallo leerer Fragment</string>
+    <string name="setup_text">Ein einfacher Weg, Root auch nach Updates zu behalten</string>
+    <string name="logs">Logs:</string>
+    <string name="boot_image_extracted_successfully">Boot-Image erfolgreich extrahiert\n</string>
+    <string name="failed_to_extract_boot_image">Boot-Image konnte nicht extrahiert werden\n</string>
+    <string name="patching_boot_img">Boot.img wird gepatcht ...\n</string>
+    <string name="failed_to_patch_boot_image">Boot-Image konnte nicht gepatcht werden!!\n</string>
+    <string name="boot_image_patched_successfully">Boot-Image erfolgreich gepatcht\n</string>
+    <string name="failed_to_flash_boot_image">Boot-Image konnte nicht geflasht werden!!\n</string>
+    <string name="boot_image_flashed_successfully">Boot-Image erfolgreich geflasht\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">Bitte stelle sicher, dass Root installiert ist und Root-Zugriff erlaubt wurde!</string>
+    <string name="magisk_installed_successfully">Magisk wurde erfolgreich auf Slot %1$s installiert. Du kannst jetzt neu starten, und Magisk bleibt installiert!</string>
+    <string name="are_you_sure_you_want_to_install">Bist du sicher, dass du installieren möchtest? Nur nach OTA durchführen!!\nMagisk wird installiert auf: /dev/block/by-name/boot%1$s</string>
+    <string name="magisk_installation_failed">" Magisk-Installation fehlgeschlagen!! Bitte überprüfen Sie die Logs!"</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">Нажмите кнопку ниже, чтобы установить Magisk после OTA</string>
+    <string name="install_btn">Установить</string>
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+    <string name="setup_text">Простой способ сохранить root после обновлений</string>
+    <string name="logs">Логи:</string>
+    <string name="boot_image_extracted_successfully">Boot-образ успешно извлечён\n</string>
+    <string name="failed_to_extract_boot_image">Не удалось извлечь boot-образ\n</string>
+    <string name="patching_boot_img">Патчинг boot.img ...\n</string>
+    <string name="failed_to_patch_boot_image">Не удалось пропатчить boot-образ!!\n</string>
+    <string name="boot_image_patched_successfully">Boot-образ успешно пропатчен\n</string>
+    <string name="failed_to_flash_boot_image">Не удалось прошить boot-образ!!\n</string>
+    <string name="boot_image_flashed_successfully">Boot-образ успешно прошит\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">Убедитесь, что установлен root и предоставлен доступ root!</string>
+    <string name="magisk_installed_successfully">Magisk успешно установлен в слот %1$s. Теперь можно перезагрузиться, и Magisk останется установленным!</string>
+    <string name="are_you_sure_you_want_to_install">Вы уверены, что хотите установить? Делайте это только после OTA!!\nMagisk будет установлен в: /dev/block/by-name/boot%1$s</string>
+    <string name="magisk_installation_failed">Установка Magisk не удалась!! Проверьте логи!</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">Haz clic en el botón de abajo para instalar Magisk después de una OTA</string>
+    <string name="install_btn">Instalar</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="setup_text">Una manera fácil de mantener el root incluso después de actualizaciones</string>
+    <string name="logs">Registros:</string>
+    <string name="boot_image_extracted_successfully">Imagen de arranque extraída con éxito\n</string>
+    <string name="failed_to_extract_boot_image">No se pudo extraer la imagen de arranque\n</string>
+    <string name="patching_boot_img">Parcheando boot.img ...\n</string>
+    <string name="failed_to_patch_boot_image">¡No se pudo parchear la imagen de arranque!\n</string>
+    <string name="boot_image_patched_successfully">Imagen de arranque parcheada con éxito\n</string>
+    <string name="failed_to_flash_boot_image">¡No se pudo flashear la imagen de arranque!\n</string>
+    <string name="boot_image_flashed_successfully">Imagen de arranque flasheada con éxito\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">¡Asegúrate de tener root instalado y conceder acceso root!</string>
+    <string name="magisk_installed_successfully">Magisk se instaló correctamente en la ranura %1$s. ¡Puedes reiniciar ahora y Magisk seguirá instalado!</string>
+    <string name="are_you_sure_you_want_to_install">¿Estás seguro de que deseas instalar? ¡Hazlo solo después de una OTA!\nMagisk se instalará en: /dev/block/by-name/boot%1$s</string>
+    <string name="magisk_installation_failed">¡Fallo en la instalación de Magisk! ¡Por favor, revise los registros!</string>
+</resources>

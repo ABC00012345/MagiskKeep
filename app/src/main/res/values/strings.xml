@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Magisk Keep</string>
+    <string name="main_msg_home">Click the button below to install Magisk after OTA</string>
+    <string name="install_btn">Install</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setup_text">An easy way to keep root preseved even after updates</string>
+    <string name="logs">Logs:</string>
+    <string name="boot_image_extracted_successfully">Boot image extracted successfully\n</string>
+    <string name="failed_to_extract_boot_image">Failed to extract boot image\n</string>
+    <string name="patching_boot_img">Patching boot.img ...\n</string>
+    <string name="failed_to_patch_boot_image">Failed to patch boot image!!\n</string>
+    <string name="boot_image_patched_successfully">Boot image patched successfully\n</string>
+    <string name="failed_to_flash_boot_image">Failed to flash boot image!!\n</string>
+    <string name="boot_image_flashed_successfully">Boot image flashed successfully\n</string>
+    <string name="please_make_sure_to_have_root_installed_and_allow_root_access">Please make sure to have root installed and allow root access!</string>
+    <string name="magisk_installed_successfully">Magisk installed successfully to slot %1$s. You can reboot now and Magisk will still be installed!</string>
+    <string name="are_you_sure_you_want_to_install">Are you sure you want to install? Only do this after OTA!!\nMagisk will be install to: /dev/block/by-name/boot%1$s</string>
+    <string name="flashing_new_boot_img">Flashing new-boot.img ...\n</string>
+    <string name="done">Done :)\n</string>
+    <string name="magisk_installation_failed">Magisk insallation failed!! Please check the logs!</string>
+</resources>
